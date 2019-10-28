@@ -1,6 +1,6 @@
 {
   "name": "@blueoak/copyleft",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Blue Oak Council's copyleft license families in JSON format",
   "author": "Blue Oak Council Inc. <github@blueoakcouncil.org>",
   "repository": "blueoakcouncil/blue-oak-copyleft-npm-package",
