@@ -1,0 +1,20 @@
+{
+  "name": "@blueoak/copyleft",
+  "version": "0.0.0",
+  "description": "Blue Oak Council's copyleft license families in JSON format",
+  "author": "Blue Oak Council Inc. <github@blueoakcouncil.org>",
+  "repository": "blueoakcouncil/blue-oak-copyleft-npm-package",
+  "license": "CC0-1.0",
+  "files": [
+    "package.json",
+    "index.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "json": "^9.0.6"
+  },
+  "scripts": {
+    "prepublish": "curl https://blueoakcouncil.org/copyleft.json | json families > index.json"
+  }
+}
