@@ -15,6 +15,6 @@
     "json": "^9.0.6"
   },
   "scripts": {
-    "prepublish": "curl https://blueoakcouncil.org/copyleft.json | json families > index.json"
+    "prepublish": "node build.js"
   }
 }
